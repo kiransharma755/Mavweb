@@ -6,27 +6,19 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<description></description>
 	<build>
-		
-		
                 <plugins>
                         <plugin>
                                 <groupId>org.apache.maven.plugins</groupId>
                                 <artifactId>maven-compiler-plugin</artifactId>
-                                <version>2.3.2</version>
                                 <configuration>
                                         <failOnMissingWebXml>false</failOnMissingWebXml>
                                         <source>1.5</source>
                                         <target>1.5</target>
-					
-        	
                                 </configuration>
                         </plugin>
 			<plugin>
 				<artifactId>maven-war-plugin</artifactId>
 				<version>2.0</version>
-                                <configuration>
-          				<warName>hello</warName>
-        			</configuration>
 			</plugin>
 		</plugins>
 	</build>
@@ -38,15 +30,16 @@
 		</dependency>
 	</dependencies>
 	<distributionManagement>
-<repository>
-	<id>releases</id>
-	<name>releases</name>
-	<url>http://10.0.0.119:8081/repository/releases/</url>
-</repository>
-<snapshotRepository>
-	<id>snapshots</id>
-	<name>snapshots</name>
-	<url>http://10.0.0.119:8081/repository/snapshots/</url>
-</snapshotRepository>
-</distributionManagement>
+	<repository>
+		<id>releases</id>
+		<name>releases</name>
+		<url>http://localhost:8081/repositoriy/releases/</url>
+	</repository>
+	<snapshotRepository>
+		<id>snapshots</id>
+		<name>snapshots</name>
+		<url>http://localhost:8081/repository/snapshots/</url>
+	</snapshotRepository>
+	</distributionManagement>
+
 </project>
