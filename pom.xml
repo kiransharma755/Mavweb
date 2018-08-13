@@ -41,12 +41,12 @@
 <repository>
 	<id>releases</id>
 	<name>releases</name>
-	<url>http://10.0.0.119:8081/nexus/content/repositories/releases/</url>
+	<url>http://10.0.0.119:8081/nexus/repository/release/</url>
 </repository>
 <snapshotRepository>
 	<id>snapshots</id>
 	<name>snapshots</name>
-	<url>http://10.0.0.119:8081/nexus/content/repositories/snapshots/</url>
+	<url>http://10.0.0.119:8081/nexus/repository/snapshot/</url>
 </snapshotRepository>
 </distributionManagement>
 </project>
