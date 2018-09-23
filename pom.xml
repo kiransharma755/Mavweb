@@ -37,7 +37,7 @@
 	</repository>
 	<snapshotRepository>
 		<id>snapshots</id>
-		<name>snapshots</name>
+		<name>snapshots-test</name>
 		<url>http://localhost:8081/repository/snapshots/</url>
 	</snapshotRepository>
 	</distributionManagement>
